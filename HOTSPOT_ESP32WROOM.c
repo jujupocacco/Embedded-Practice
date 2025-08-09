@@ -12,18 +12,18 @@ void WIFI_INIT(void){
 
 	wifi_config_t ap_conf = {
 		.ap = {
-			.ssid = "lite",
+			.ssid = "xxxx",
 			.ssid_len = 4,
 			.channel = 1,
-			.password = "hellothere090",
+			.password = "xxxx",
 			.max_connection = 4,
 			.authmode = WIFI_AUTH_WPA_WPA2_PSK
 		},
 	};
 	wifi_config_t sta_conf = {
 		.sta = {
-			.ssid = "lite",
-			.password = "hellothere090",
+			.ssid = "xxxx",
+			.password = "xxxx",
 		},
 	} ;
 
