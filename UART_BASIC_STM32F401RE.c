@@ -1,16 +1,3 @@
-#include <stdint.h>
-                                                                                                                                                                              
-/*OFFSET */                                                                                                                                                                   
-#define RCC_OFFSET (0x3800UL)                                                                                                                                                 
-                                                                                                                                                                              
-#define AHB1ENR_OFFSET (0x30UL)                                                                                                                                               
-#define APB1ENR_OFFSET (0x40UL)                                                                                                                                               
-                                                                                                                                                                              
-#define GPIOA_OFFSET (0x0000UL)                                                                                                                                               
-#define MODER_OFFSET (0x00UL)                                                                                                                                                 
-#define AFRL_OFFSET (0x20UL)
-
-#define USART2_OFFSET (0x4400)
 #define USART2_BRR_OFFSET (0x08UL) 
 #define USART2_DR_OFFSET (0x04UL) 
 #define USART2_SR_OFFSET (0x00UL)
